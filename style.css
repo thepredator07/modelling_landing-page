@@ -1,0 +1,99 @@
+
+body{
+    margin: 0;
+    background-image: url(./bg.jpg);
+    background-size:cover;
+    color: aliceblue;
+    background-position: 02px;
+    font-family:cursive;
+    height: 120vh;
+}
+header{
+    
+    height: 30px;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+.logobox{
+    
+    display: inline-block;
+    width: 180px;
+    font-size: larger;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.logobox:hover{
+    color: rgb(146, 141, 141);
+}
+.navbox{
+    
+    width: 600px;
+    position: absolute;
+    right: 20px;
+    display: inline-block;
+}
+.navbox>a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.navbox>a:hover{
+    color:rgb(203, 78, 78);
+}
+#homie{
+    color: rgb(237, 224, 224);
+    
+}
+.heading{
+    color:rgb(135, 111, 108);
+    
+    font-size: 60px;
+    font-family:initial;
+    top: 60px;
+    position: relative;
+    left:80px;
+    width: 600px;
+}
+.heading+h3{
+    color: white;
+    font-size: 30px;
+    padding: 15px;
+    font-family:initial;
+    position: relative;
+    width: 500px;
+    left:420px;
+}
+.heading+h3+p{
+    padding:15px;
+    color: aliceblue;
+    position: relative;
+    width:400px;
+    left:70px;
+    font-style: italic;
+}
+.btn{
+    width:120px;
+    padding:12px;
+    border: none;
+    font-weight: 300;
+    background-color: rgb(164, 114, 108);
+    color: rgb(25, 24, 23);
+    font-family:cursive;
+    position: relative;
+    left: 200px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: rgb(99, 90, 91);
+
+}
+footer{
+    color: antiquewhite;
+    bottom: 0;
+    position: fixed;
+    font-family: cursive;
+}
